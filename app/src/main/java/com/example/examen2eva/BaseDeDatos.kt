@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteOpenHelper
 class JuegosComprados(context: Context) : SQLiteOpenHelper(context, DATABASE, null, DATABASE_VERSION) {
     companion object {
         private const val DATABASE_VERSION = 1
-        private const val DATABASE = "videojuegos.db"
+        private const val DATABASE = "JuegosComprados.db"
         private const val TABLA_VIDEOJUEGOS = "videojuego"
         private const val KEY_ID = ""
         private const val COLUMN_NOMBRE = "nombre"
