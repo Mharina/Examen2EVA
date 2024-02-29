@@ -15,8 +15,8 @@ class SaveActivity : AppCompatActivity() {
         val boton= findViewById<Button>(R.id.button7)
         val textoJuegos=findViewById<TextView>(R.id.textView2)
 
-        val BDJ = JuegosComprados(this)
-        textoJuegos.text=BDJ.lectura().toString()
+//        val BDJ = JuegosComprados(this)
+//        textoJuegos.text=BDJ.lectura().toString()
 
         boton.setOnClickListener {
             val intent = Intent(this@SaveActivity, MainActivity::class.java)
